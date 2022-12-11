@@ -19,10 +19,9 @@ public class Main {
         String longestmatch = "";
         for(int i = 0; i < s.length(); i++) {
 
-            int x; //bnkhzen feh akher index etkrr feh el 7rf
+            int x; 
 
-
-            if(Searchwindow.length() > window_size ) {
+             if(Searchwindow.length() > window_size ) {
                 difference = Searchwindow.length() - window_size;
                 String temp="";
                 for(int j=difference;j<Searchwindow.length();j++) {
@@ -30,7 +29,7 @@ public class Main {
 
                 }
                 Searchwindow = temp;
-                //int z = Searchwindow.length() - window_size;
+               
 
             }
 
